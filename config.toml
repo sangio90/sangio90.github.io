@@ -1,4 +1,10 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Guido Sangiovanni"
-theme = "hugo-theme-jane"
+theme = "jeffprod"
+[permalinks]
+    post = "/:year/:filename"
+
+[taxonomies]
+    tag = "tags"
+    archive = "archives"
